@@ -8,29 +8,31 @@
     </head>
 
     <body>
-  <nav class="blue-grey darken-2" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#home" class="brand-logo">Ryan McBride</a>
-      <ul class="right hide-on-med-and-down">
+  <nav class="blue-grey darken-2 big-alternatt">
+    <div class="nav-wrapper container">
+      <a href="#home" class="brand-logo hide-on-med-and-down">Ryan McBride</a>
+      <ul id="nav-mobile" class="right hide-on-small-only">
         <li><a href="#previousworks">Previous Works</a></li>
         <li><a href="#languages">Languages</a></li>
         <li><a href="#webdev">Web Development</a></li>
       </ul>
-
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#previousworks">Previous Works</a></li>
-        <li><a href="#languages">Languages</a></li>
-        <li><a href="#webdev">Web Development</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
+          <a class='blue-grey darken-2 dropdown-button btn alternatt' href='#' data-activates='dropdown1'>Site Links</a>
+
+  <!-- Dropdown Structure -->
+  <ul id='dropdown1' class='dropdown-content'>
+    <li><a href="#previousworks">Previous Works</a></li>
+    <li><a href="#languages">Languages</a></li>
+    <li><a href="#webdev">Web Development</a></li>
+  </ul>
     <section id="home">
         <div class="intro-section valign-wrapper">
             <div class="container">
-                <h1 class="valign">Ryan McBride</h1>
-                <i><h4><i class="material-icons hide-on-med-and-down">code</i> Web Developer</h4></i>
+                <h1 class="valign"><b>Ryan McBride</b></h1>
+                <i><h2><i class="material-icons">code</i> Web Developer</h2></i>
                 <br>
-                <a href="http://syntax-solutions.xyz" class="hide-on-small-only btn blue tooltipped" data-position="bottom" data-delay="50" data-tooltip="Current Workplace">Syntax Solutions</a>
+                <a href="http://syntax-solutions.xyz" class="btn blue tooltipped" data-position="bottom" data-delay="50" data-tooltip="Current Workplace">Syntax Solutions</a>
             </div>
         </div>
         </section>
@@ -41,7 +43,7 @@
                     
   <div class="card">
     <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="/img/matthewallenpreview.png">
+      <img class="activator" src="http://syntax-solutions.neocities.org//img/previous_projects/Matthew_Allen_2048_preview.png">
     </div>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Matthew Allen<i class="material-icons right">more_vert</i></span>
@@ -59,7 +61,7 @@
                     
   <div class="card">
     <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="https://cdn.rawgit.com/Syntax-Solutions/site/gh-pages/img/previous_projects/Human%20Rights%20Watch%20IMG.png">
+      <img class="activator" src="http://syntax-solutions.neocities.org/img/previous_projects/Human%20Rights%20Watch%20IMG.png">
     </div>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Human Rights Watch<i class="material-icons right">more_vert</i></span>
@@ -77,7 +79,7 @@
                     
   <div class="card">
     <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="/img/syntaxsolutionspreview.png">
+      <img class="activator" src="/img/syntax-solutions-preview.png">
     </div>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Syntax Solutions<i class="material-icons right">more_vert</i></span>
@@ -197,7 +199,7 @@
               var map = new google.maps.Map(mapCanvas, mapOptions);
           </script>
                     </div>
-                </div></div>
+       
     <footer class="page-footer blue-grey darken-2">
       <div class="container">
         <div class="row">
@@ -214,14 +216,14 @@
           </div>
           <div class="col l4 s12" style="overflow: hidden;">
             <h5 class="white-text">Connect</h5>
-              <p class="grey-text text-lighten-4">Find me on Github!<br>This page is hosted by <a href="http://github.io">Github Pages</a>. Styles from <a href="http://materializecss.com">MaterializeCSS</a></p>
+              <p class="grey-text text-lighten-4">Find me on Github!<br>This page is hosted by <a href="http://neocities.org">Neocities</a>. Styles from <a href="http://materializecss.com">MaterializeCSS</a></p>
               <a class="black-text btn waves-effect waves-dark blue-grey lighten-5" href="https://github.com/rymcbr">Github</a>
             <br>
             
           </div>
         </div>
       </div>
-      <div class="footer-copyright blue-grey darken-3">
+      <div class="footer-copyright  blue-grey darken-3">
         <div class="container">
         Ryan McBride 2016
         <a class="grey-text text-lighten-4 right" href="https://aps1.net">Education</a>
@@ -229,8 +231,7 @@
       </div>
     </footer>
       <!--Import jQuery before materialize.js-->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/materialize.js"></script>
-    <script src="js/init.js"></script>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
     </body>
   </html>
