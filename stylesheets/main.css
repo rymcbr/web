@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Inconsolata);
 .intro-section {
     padding: 100px;
-    background: url(/img/blurred-background-2.jpg) center center no-repeat;
+    background: url(https://rawgit.com/rymcbr/web/gh-pages/img/blurred-background-2.jpg) center center no-repeat;
     background-size: cover;
     height: 60vh;
     color: #fff;
