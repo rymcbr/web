@@ -1,97 +1,96 @@
  <!DOCTYPE html>
-  <html>
-    <head>
-      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">      
-        <link href="https://rawgit.com/rymcbr/web/gh-pages/stylesheets/main.css" rel="stylesheet" type="text/css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    </head>
-
-    <body>
-  <nav class="blue-grey darken-2" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="/web/" class="brand-logo">Ryan McBride</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#previousworks">Previous Works</a></li>
-        <li><a href="#languages">Languages</a></li>
-        <li><a href="#webdev">Web Development</a></li>
+<html>
+  <head>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css"rel="stylesheet">      
+    <link href="/stylesheets/main.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Ryan McBride</title>
+  </head>
+  <body>
+      <div class="navbar-fixed">
+          <nav role="navigation" class="blue-grey darken-3">
+              <div class="nav-wrapper">
+                  <a href="#" data-activates="slide-out" class="show-on-large button-collapse">
+                      <i class="material-icons">menu</i>
+                  </a>
+                  <a href="#" class="brand-logo right">ryanmcbride</a>
+                  <ul id="nav-mobile" class="hide-on-med-and-down" style="margin-left:240px;">
+                      <li><a href="#previousworks">Previous Works</a></li>
+                      <li><a href="#languages">Languages</a></li>
+                      <li><a href="#webdev">Web Development</a></li>
+                  </ul>
+              </div>
+          </nav>
+      </div>
+      <ul id="slide-out" class="side-nav fixed">
+          <img src="/img/ryan-profile.jpg" class="center-block" width="70%">
+          <a href="#previousworks">Previous Works</a>
+          <a href="#languages">Languages</a>
+          <a href="#webdev">Web Development</a>
       </ul>
-
-      <ul id="nav-mobile" class="side-nav">
-        <a href="#previousworks"><li>Previous Works</li></a>
-        <a href="#languages"><li>Languages</li></a>
-        <a href="#webdev"><li>Web Development</li></a>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
-    <section id="home">
-        <div class="intro-section valign-wrapper">
-            <div class="container">
-                <h1 class="valign">Ryan McBride</h1>
-                <i><h4><i class="material-icons hide-on-med-and-down">code</i> Web Developer</h4></i>
-                <br>
-                <a href="http://syntax-solutions.xyz" class="hide-on-small-only btn blue tooltipped" data-position="bottom" data-delay="50" data-tooltip="Current Workplace">Syntax Solutions</a>
-            </div>
-        </div>
-        </section>
-        <section id="previousworks">
-            <div class="container row">
-                <h2>Previous Works</h2>
-                <div class="col m6">
-                    
-  <div class="card">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="https://rawgit.com/rymcbr/web/gh-pages/img/matthewallenpreview.png">
-    </div>
-    <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Matthew Allen<i class="material-icons right">more_vert</i></span>
-      <p><a href="http://matthewallen.tk">Take Me There</a></p>
-    </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Matthew Allen 2048 Presidential Campaign Site<i class="material-icons right">close</i></span>
-      <p>This page was created by Ryan McBride and Shardul Joshi. This site in no way endorses any candidate for president in any year.</</p>
-    </div>
-  </div>
-                
+      <main>
+          <section id="home" class="intro-section">
+              <div class="valign-wrapper">
+                  <div class="container">
+                      <h1 class="valign white-text">Ryan McBride</h1>
+                      <i>
+                          <h4 class="white-text"><i class="material-icons hide-on-med-and-down">code</i> Web Developer</h4>
+                      </i>
+                      <br>
+                      <a href="http://syntax-solutions.xyz" class="hide-on-small-only btn blue tooltipped" data-position="bottom" data-delay="50" data-tooltip="Current Workplace">Syntax Solutions</a>
+                  </div>
+              </div>
+          </section>
+          <section id="introduction">
+              <div class="row">
+                  <div class="col l8 offset-l2">
+            <div class="card hoverable">
+                <div class="card-content">
+                    <h3 class="center">Web Development</h3>
+                    <h6 class="center">Templates are available now from <a href="http://syntax-solutions.xyz">Syntax Solutions</a>. Free templates are available for many different needs. Check it out now!</h6>
                 </div>
-                
-                <div class="col m6">
+                <div class="card-actions">
                     
-  <div class="card">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="https://cdn.rawgit.com/Syntax-Solutions/site/gh-pages/img/previous_projects/Human%20Rights%20Watch%20IMG.png">
-    </div>
-    <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Human Rights Watch<i class="material-icons right">more_vert</i></span>
-      <p><a href="http://human-rights-watch.neocities.org">Take Me There</a></p>
-    </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Human Rights Watch School Project<i class="material-icons right">close</i></span>
-      <p>This site was completed for a High School project in the year 2015. This site in no way endorses any business or organization.</p>
-    </div>
-  </div>
-                
-                </div>
-                
-                <div class="col m8 offset-m2">
-                    
-  <div class="card">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="https://rawgit.com/rymcbr/web/gh-pages/img/syntaxsolutionspreview.png">
-    </div>
-    <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Syntax Solutions<i class="material-icons right">more_vert</i></span>
-      <p><a href="http://syntax-solutions.github.io/site">Take Me There</a></p>
-    </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Syntax Solutions<i class="material-icons right">close</i></span>
-      <p>Ryan and Shardul created this site to sell and provide templates and websites to people looking for a website that fits their needs.</p>
-    </div>
-  </div>
-                
                 </div>
             </div>
-        
+                      </div>
+                </div>
+          </section>
+          <section id="previousworks">
+              <div class="container row">
+                  <h2>Previous Works</h2>
+                  <div class="col m6">
+                      <div class="card">
+                          <div class="card-image waves-effect waves-block waves-light">
+                              <img class="activator" alt="preview of a site made for Matthew Allen" src="/img/matthewallenpreview.png">
+                          </div>
+                          <div class="card-content">
+                              <span class="card-title activator grey-text text-darken-4">Matthew Allen<i class="material-icons right">more_vert</i></span>
+                              <p><a href="http://matthewallen.tk">Take Me There</a></p>
+                          </div>
+                          <div class="card-reveal">
+                              <span class="card-title grey-text text-darken-4">Presidential Campaign Site<i class="material-icons right">close</i></span>
+                              <p>This page was created by Ryan McBride and Shardul Joshi. This site in no way endorses any candidate for president in any year.</</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col m6">
+                      <div class="card">
+                          <div class="card-image waves-effect waves-block waves-light">
+                              <img class="activator" alt="preview of Syntax Solutions" src="/img/syntaxsolutionspreview.png">
+                          </div>
+                          <div class="card-content">
+                              <span class="card-title activator grey-text text-darken-4">Syntax Solutions<i class="material-icons right">more_vert</i></span>
+                              <p><a href="http://syntax-solutions.neocities.org">Take Me There</a></p>
+                          </div>
+                          <div class="card-reveal">
+                              <span class="card-title grey-text text-darken-4">Syntax Solutions<i class="material-icons right">close</i></span>
+                              <p>Ryan and Shardul created this site to sell and provide templates and websites to people looking for a website that fits their needs.</p>
+                          </div>
+                      </div>
+				  </div>
+              </div>
         </section>
         <section id="languages">
             <div class="container">
@@ -99,7 +98,7 @@
                 <div class="row">
                     <div class="col m6">
                         <h3 class="center">HTML</h3>
-                        <p>I began learning HTML around the beginning of 8th grade, taking a course of <a href="http://codeacademy.com">Codeacademy</a>. Soon enough, I had little time to continue the course due to a rise in homework. This became a challenge; a duel based off of the concept of time, managing school and sports but also learning HTML and CSS.</p>
+                        <p>I began learning HTML around the beginning of 8th grade, taking a course of <a href="http://codeacademy.com">Codeacademy</a>. Soon enough, I had little time to continue the course due to a rise in homework. This became a challenge; a duel between what I thought was important and what the state thought was.</p>
                     </div>
                     <div class="col m6">
                         <h3 class="center">CSS</h3>
@@ -110,12 +109,17 @@
         </section>
         <section id="webdev">
             <div class="container">
-                <h2>Web Development</h2>
                 <div class="col s12">
                     <ul class="tabs">
-                        <li class="tab col s6"><a class="blue-text" href="#blockgroups">Block Groups</a></li>
-                        <li class="tab col s6"><a class="blue-text"href="#googlemaps">Google Maps</a></li>
+                        <li class="tab col s6"><a class="blue-text waves-effect" href="#general">General</a></li>
+                        <li class="tab col s6"><a class="blue-text waves-effect" href="#blockgroups">Block Groups</a></li>
+                        <li class="tab col s6"><a class="blue-text waves-effect" href="#googlemaps">Google Maps</a></li>
                     </ul>
+                    <div id="general">
+                        <h3>Web Development</h3>
+                        <p>As a web developer, I'm interested on getting your site on the web. Be it a personal site, business focused site, or anything else, <a href="mailto:ryanmcbride@syntax-solutions.xyz">send me an email</a>.</p>
+                        <p>Although I'm willing to work on a custom site, templates are available at <a href="http://syntax-solutions.xyz">Syntax Solutions</a> for free</p>
+                    </div>
                     <div id="blockgroups">
                     <h3>Block Groups:</h3>
           <h5>What are they?</h5>
@@ -133,7 +137,7 @@
                 </div>
                 <div class="row">
                     <div class="col m4 center">
-                        <div class="card">
+                        <div class="card hoverable">
                             <div class="card-content">
                             <i class="material-icons">business</i>
                             <span class="card-title">Block 1</span>
@@ -144,7 +148,7 @@
                         </div>
                     </div>
                         <div class="col m4 center">
-                            <div class="card">
+                            <div class="card hoverable">
                                 <div class="card-content">
                                 <i class="material-icons">developer_mode</i>
                                 <span class="card-title">Block 2</span>
@@ -155,7 +159,7 @@
                         </div>
                     </div>
                         <div class="col m4">
-                            <div class="card">
+                            <div class="card hoverable">
                                 <div class="card-content center">
                                 <i class="material-icons">phone</i>
                                 <span class="card-title">Block3</span>
@@ -228,9 +232,10 @@
         </div>
       </div>
     </footer>
+            </main>
       <!--Import jQuery before materialize.js-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="https://rawgit.com/rymcbr/web/gh-pages/js/materialize.js"></script>
-    <script src="https://rawgit.com/rymcbr/web/gh-pages/js/init.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
     </body>
   </html>
