@@ -1,10 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Inconsolata);
 .intro-section {
     padding: 100px;
-    background: url(https://rawgit.com/rymcbr/web/gh-pages/img/blurred-background-2.jpg) center center no-repeat;
+    background: url(/web/img/blurred-background-2.jpg);
     background-size: cover;
     height: 60vh;
-    color: #fff;
+    color: #000;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -58,3 +58,19 @@ abbr {
 .dropdown-content {
     width: 100%;
 }
+.brand-logo {
+    font-weight: 600;
+    font-size: 20px !important;
+}
+.container-fluid {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+main {
+    margin-left: 240px;
+}
+ @media screen and (max-width: 992px) {
+      main  {
+        margin-left: 0;
+      }
+    }
