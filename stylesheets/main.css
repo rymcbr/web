@@ -7,6 +7,11 @@
     color: #000;
     margin-bottom: 50px;
 }
+@media screen and (max-width: 768px) {
+	.intro-section {
+		padding: 0px !important;
+	}
+}
 body {
     font-family: 'Roboto',sans-serif;
     color: #333333;
