@@ -11,6 +11,10 @@
 body {
     font-family: 'Roboto',sans-serif;
     color: #333333;
+    overflow-x: hidden; /*Hides extra content to be fully responsive*/
+}
+html {
+    overflow-x: hidden; /*Hides extra content to be fully responsive*/
 }
 hr {
     border: 1px solid #ececec;
