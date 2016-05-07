@@ -1,11 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Inconsolata);
 .intro-section {
-    padding: 100px;
     background: url(/web/img/5.jpg);
     background-size: cover;
     height: 100vh;
     color: #000;
-    margin-bottom: 50px;
 }
 body {
     font-family: 'Roboto',sans-serif;
