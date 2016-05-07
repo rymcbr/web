@@ -16,11 +16,11 @@ $(document).ready(function () {
 
     if ($(this).scrollTop()>0)
      {
-        $('.a').fadeOut();
+        $('.disappear').fadeOut();
      }
     else
      {
-      $('.a').fadeIn();
+      $('.disappear').fadeIn();
      }
  });
 
