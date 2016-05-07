@@ -8,7 +8,7 @@
 }
 @media screen and (max-width: 786px) {
     .intro-section {
-        padding: none;
+        padding: 0px !important;
     }
 }
 body {
