@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    'use strict';
 	$('a[href^="#"]').on('click', function (e) {
 	    e.preventDefault();
 
@@ -10,5 +11,9 @@ $(document).ready(function () {
 	    }, 200, 'swing', function () {
 	        window.location.hash = target;
 	    });
+	});
+    $(window).load(function () {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");
 	});
 });
