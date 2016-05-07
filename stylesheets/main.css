@@ -1,19 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Inconsolata);
 .intro-section {
-    background: url(/web/img/blurred-background-2.jpg);
+    padding: 100px;
+    background: url(/web/img/5.jpg);
     background-size: cover;
-    height: 60%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    text-align: center;
+    height: 100vh;
+    color: #000;
+    margin-bottom: 50px;
 }
 body {
     font-family: 'Roboto',sans-serif;
     color: #333333;
-    overflow-x: hidden; /*Hides extra content to be fully responsive*/
-}
-html {
-    overflow-x: hidden; /*Hides extra content to be fully responsive*/
 }
 hr {
     border: 1px solid #ececec;
@@ -66,18 +62,11 @@ abbr {
     font-size: 20px !important;
 }
 .container-fluid {
-    padding-left: 5%;
-    padding-right: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
 }
-main {
-    margin-left: 240px;
-}
- @media screen and (max-width: 992px) {
-      main  {
-        margin-left: 0;
-      }
-    }
-#introduction {
-    margin-top: 50px;
-    margin-bottom: 50px;
+.mono {
+    font-family: 'Roboto Mono', serif;
+    font-weight: 300;
+    font-size: 35px;
 }
