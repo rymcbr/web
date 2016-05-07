@@ -1,9 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Inconsolata);
 .intro-section {
+    padding: 100px;
     background: url(/web/img/5.jpg);
     background-size: cover;
     height: 100vh;
     color: #000;
+}
+@media screen and (max-width: 786px) {
+    .intro-section {
+        padding: none;
+    }
 }
 body {
     font-family: 'Roboto',sans-serif;
