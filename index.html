@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css" rel="stylesheet">
-    <link href="/web/stylesheets/main.css" rel="stylesheet" type="text/css">
+    <link href="stylesheets/main.css" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ryan McBride</title>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:300' rel='stylesheet' type='text/css'>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-    <script src="/web/scripts.js"></script>
+    <script src="scripts.js"></script>
     <link rel="apple-touch-icon" sizes="60x60" href="/web/img/60x60.png" />
     <link rel="apple-touch-icon" sizes="72x72" href="/web/img/72x72.png" />
     <link rel="apple-touch-icon" sizes="76x76" href="/web/img/76x76.png" />
@@ -28,7 +26,7 @@
 </head>
 
 <body>
-<div class="se-pre-con"></div>
+<header>
     <nav class="yellow darken-3">
         <div class="nav-wrapper container-fluid">
             <a href="#home" class="brand-logo">ryanmcbride</a>
@@ -48,7 +46,8 @@
             </ul>
         </div>
     </nav>
-
+    </header>
+    <div id="preloader"></div>
     <section id="home" class="intro-section" title="Image: Andre Ermolaev">
         <div class="valign-wrapper">
             <div class="container-fluid">
@@ -256,6 +255,7 @@
         <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script src="js/materialize.js"></script>
         <script src="js/init.js"></script>
+        <script src="/js/loader.js"></script>
 </body>
 
 </html>
