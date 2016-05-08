@@ -1,5 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+@import url(https://fonts.googleapis.com/css?family=Arimo);
 .intro-section {
     padding: 100px;
     background: url(/web/img/5.jpg);
@@ -72,7 +71,7 @@ abbr {
     margin-right: 3%;
 }
 h1, h2, h3, h4, h5 {
-font-family: 'Anonymous Pro', serif;
+font-family: 'Arimo', sans-serif;
 font-weight: 400;
 }
 .mono {
