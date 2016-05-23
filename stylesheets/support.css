@@ -127,7 +127,7 @@ pre {
     font-family: monospace;
     background-color: white;
     border: solid 1px #ccc;
-    height: 400px;
+    height: auto;
     overflow-y: scroll;
     color: #000;
     border-left: solid 10px #009688;
