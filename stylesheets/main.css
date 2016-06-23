@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
 .intro-section {
     padding: 100px;
     background: url(/web/img/5.jpg);
@@ -13,7 +13,7 @@
 	}
 }
 body {
-font-family: proxima-nova, sans-serif;
+font-family: 'Open Sans', sans-serif;
 color: #333333 !important;
 }
 hr {
@@ -71,7 +71,7 @@ abbr {
     margin-right: 3%;
 }
 h1, h2, h3, h4, h5 {
-font-family: proxima-nova, sans-serif;
+font-family: 'Open Sans', sans-serif;
 font-weight: 300;
 }
 .mono {
