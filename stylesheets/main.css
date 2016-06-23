@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+@import 'https://fonts.googleapis.com/css?family=Heebo';
 .intro-section {
     padding: 100px;
     background: url(/web/img/5.jpg);
@@ -71,7 +71,7 @@ abbr {
     margin-right: 3%;
 }
 h1, h2, h3, h4, h5 {
-font-family: 'Open Sans', sans-serif;
+font-family: 'Heebo', sans-serif;
 font-weight: 200 !important;
 }
 .mono {
