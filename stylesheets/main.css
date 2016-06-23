@@ -1,5 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
-
+.intro-section {
+    padding: 100px;
+    background: url(/web/img/5.jpg);
+    background-size: cover;
+    height: 95vh;
+    color: #000;
+    margin-bottom: 50px;
+}
+@media screen and (max-width: 768px) {
+	.intro-section {
+		padding: 0px !important;
+	}
+}
 body {
 font-family: proxima-nova, sans-serif;
 color: #333333 !important;
