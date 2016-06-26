@@ -66,8 +66,8 @@ abbr {
     width: 100%;
 }
 .container-fluid {
-    margin-left: 3%;
-    margin-right: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 h1, h2, h3, h4, h5 {
 font-weight: 300;
