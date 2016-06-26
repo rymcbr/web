@@ -7,7 +7,6 @@
     <link href="/web/stylesheets/main.css" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ryan McBride</title>
-    <link rel="stylesheet" href="https://use.typekit.net/c/0ed20f/1w;proxima-nova,2,2clzCK:W:n1,2clzC9:W:n3,2clzCF:W:n4,2clzCH:W:n6,2clzC5:W:n7,2clzC7:W:n8,2clzC3:W:n9/d" media="all">
     <link rel="apple-touch-icon" sizes="60x60" href="/web/img/60x60.png" />
     <link rel="apple-touch-icon" sizes="72x72" href="/web/img/72x72.png" />
     <link rel="apple-touch-icon" sizes="76x76" href="/web/img/76x76.png" />
@@ -21,105 +20,72 @@
     <link rel="icon" type="image/png" href="/web/img/16x16.png" sizes="16x16" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
 
 </head>
 
 <body>
     <header>
-        <div class="navbar-fixed">
-            <nav class="yellow darken-3">
-                <div class="nav-wrapper container-fluid">
-                    <a href="#home" class="brand-logo">ryanmcbride</a>
-                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                    <ul class="right hide-on-med-and-down">
-                        <li><a href="#previousworks">Work</a></li>
-                        <li><a href="#languages">Languages</a></li>
-                        <li><a href="/web/support/">Resources</a></li>
-                    </ul>
-                    <ul class="side-nav" id="mobile-demo">
-                        <img src="/web/img/ryan-profile.jpg" class="center-block" width="70%">
-                        <h5 class="center grey-text text-darken-2">Ryan McBride</h5>
-                        <h6 class="center grey-text text-darken-2">Boston, MA</h6>
-                        <a href="#previousworks">Work</a>
-                        <a href="#languages">Languages</a>
-                        <a href="/web/support/">Resources</a>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+        <ul class="side-nav" id="mobile-demo">
+            <img src="/web/img/ryan-profile.jpg" class="center-block" width="70%">
+            <h5 class="center grey-text text-darken-2">Ryan McBride</h5>
+            <h6 class="center grey-text text-darken-2">Boston, MA</h6>
+            <a href="http://syntax-solutions.xyz"><img src="https://maxcdn.icons8.com/Color/PNG/48/Business/department-48.png" title="Department" width="35" class="vcenter">     Syntax Solutions</a>
+            <a href="http://datasensesolutions.github.io/site/"><img src="https://maxcdn.icons8.com/Color/PNG/48/Science/time-48.png" title="Time" width="35" class="vcenter">    Latest Project</a>
+            <a href="/web/support/"><img src="https://maxcdn.icons8.com/Color/PNG/48/Logos/google_sites-48.png" title="Google Sites" width="35" class="vcenter">   Resources</a>
+            <li class="divider"></li>
+            <a href="mailto:ryanmcbride@syntax-solutions.xyz"><img src="https://maxcdn.icons8.com/Color/PNG/48/User_Interface/email-48.png" title="Email" width="35" class="vcenter">  Email Me</a>
+            <li class="divider"></li>
+            <a href="https://icons8.com" class="bottom"><img src="https://maxcdn.icons8.com/Color/PNG/48/Logos/icons8_logo-48.png" title="Icons8 Logo" width="35" class="vcenter">     Icons8</a>
+        </ul>
     </header>
-    <section id="home" class="intro-section" title="Image: Andre Ermolaev">
+    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+    <section id="home" class="intro-section">
         <div class="valign-wrapper">
-            <div class="container-fluid">
-                <h1 class="valign white-text thin"><span class="hide-on-med-and-down mono white-text">&lt;title&gt;</span>Ryan McBride<span class="hide-on-med-and-down  mono white-text">&lt;/title&gt;</span></h1>
-                <h4 class="white-text thin">I'm a <i>front-end</i> web developer focused on <i>material design</i> and creating magic to enhance the web.</h4>
-                <br>
-                <div class="disappear">
-                    <a href="#introduction" style="position: absolute; left:35px;bottom:35px" class="hide-on-med-and-down btn-floating btn-large waves-effect waves-light yellow darken-3"><i class="material-icons">arrow_downward</i></a>
-                </div>
+            <div class="container center">
+                <h3 class="valign">Ryan McBride</h3>
+                <h5 class="white-text valign">Here to get your site on the web.</h5>
             </div>
         </div>
     </section>
-    <section id="introduction">
-        <div class="row">
-            <div class="col l8 offset-l2">
-                <div class="card hoverable">
-                    <div class="card-content">
-                        <h3 class="center">Web Development</h3>
-                        <p class="center">As a web developer, I'm interested on getting your site on the web. Be it a personal site, business focused site, or anything else, <a href="mailto:ryanmcbride@syntax-solutions.xyz">send me an email</a>. Although I'm willing to work on a custom site, templates are available at <a href="http://syntax-solutions.xyz">Syntax Solutions</a> for free</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="http://syntax-solutions.xyz" class="grey-text text-darken-2">Templates</a>
-                    </div>
-                </div>
-            </div>
+    <div class="row">
+        <div class="col s12 ececec">
+            <ul class="tabs">
+                <li class="tab col s3"><a href="#previous">Previous Work</a></li>
+                <li class="tab col s3"><a href="#lang">Languages</a></li>
+                <li class="tab col s3"><a href="#test3">Web Development</a></li>
+            </ul>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col l4 m12 s12 wgt-1 grey">
-
+        <div id="previous" class="col s12">
+            <br><br><br>
+            <div class="row container-fluid">
+                <div class="col l6">
+                    <div class="card">
+                        <div class="first-color"></div>
+                        <div class="second-color"><h3 class="white-text">Syntax Solutions</h3></div>
+                        <div class="img-container">
+                            <a href="http://syntax-solutions.xyz" class="btn-floating teal absol"><i class="material-icons">link</i></a>
+                            <img src="/web/img/sspreview.png" class="responsive-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col l6">
+                    <div class="card">
+                        <div class="first-color"></div>
+                        <div class="second-color"><h3 class="white-text">Matthew Allen</h3></div>
+                        <div class="img-container">
+                            <a href="http://matthewallen.tk" class="btn-floating teal absol"><i class="material-icons">link</i></a>
+                            <img src="/web/img/matthewallenpreview.png" class="responsive-img">
+                        </div>
+                    </div>
                 </div>
             </div>
+            
+        
         </div>
-    </section>
-    <section id="previousworks">
-        <div class="container row">
-            <h2>Work</h2>
-            <p class="flow-text">Front-end web development is my thing. I spend most of my time making websites which are both user friendly and are effective in terms of communicating an idea. Below are a few examples of my latest work.</p>
-            <div class="col m6">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" alt="preview of a site made for Matthew Allen" src="/web/img/matthewallenpreview.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Matthew Allen<i class="material-icons right">more_vert</i></span>
-                        <p><a href="http://matthewallen.tk">Take Me There</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Presidential Campaign Site<i class="material-icons right">close</i></span>
-                        <p>This page was created by Ryan McBride and Shardul Joshi. This site in no way endorses any candidate for president in any year.</</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col m6">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" alt="preview of Syntax Solutions" src="/web/img/syntaxsolutionspreview.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Syntax Solutions<i class="material-icons right">more_vert</i></span>
-                        <p><a href="http://syntax-solutions.github.io/site">Take Me There</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Syntax Solutions<i class="material-icons right">close</i></span>
-                        <p>Ryan and Shardul created this site to sell and provide templates and websites to people looking for a website that fits their needs.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="languages">
-        <div class="container">
+        <div id="lang" class="col s12">
+            <br><br><br>
+            <div class="container">
             <h2>&lt;lang&gt;</h2>
             <div class="row">
                 <div class="col m6">
@@ -132,15 +98,10 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section id="webdev">
-        <div class="container">
-            <div class="col s12">
-                <ul class="tabs">
-                    <li class="tab col s6"><a class="blue-text waves-effect" href="#panelgroups">Panel Groups</a></li>
-                    <li class="tab col s6"><a class="blue-text waves-effect" href="#googlemaps">Google Maps</a></li>
-                </ul>
-                <div id="panelgroups">
+        </div>
+        <div id="test3" class="col s12">
+            <br><br><br>
+            <div id="panelgroups" class="container">
                     <h3>Panel Groups:</h3>
                     <h5>Where to begin:</h5>
                     <p>You'll probably want to set up your workspace first.</p>
@@ -189,7 +150,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="googlemaps">
+                <div id="googlemaps" class="container">
                     <h3>Google Maps:</h3>
                     <h5>What is it?</h5>
                     <p><a href="http://google.com">Google</a> has created an
@@ -206,58 +167,47 @@
                     <p>Finally, you'll have to run a pre-determined script to access the Google Maps host.</p>
                     <code>&lt;script src="https://maps.googleapis.com/maps/api/js">&lt;/script></code>
 
+                </div>
+        </div>
+    </div>
 
+
+    <footer class="page-footer blue-grey darken-2">
+        <div class="container">
+            <div class="row">
+                <div class="col l4 s12">
+                    <h5 class="white-text">My Pages</h5>
+                    <p class="grey-text text-lighten-4">I hope you've found exactly what you were looking for on this site. If you had hoped to reach Syntax Solutions, you will be redirected by clicking the button below.</p>
+                    <a href="http://syntax-solutions.xyz" class="black-text btn waves-effect waves-dark  blue-grey lighten-5">Syntax Solutions</a>
+
+                </div>
+                <div class="col l4 s12">
+                    <h5 class="white-text">Email Me</h5>
+                    <p class="grey-text text-lighten-4">Questions? Concerns? Suggestions? Email me. Please include your name.</p>
+                    <a class="black-text btn waves-effect waves-dark blue-grey lighten-5" href="mailto:ryanmcbride@syntax-solutions.xyz">Email</a>
+                </div>
+                <div class="col l4 s12" style="overflow: hidden;">
+                    <h5 class="white-text">Connect</h5>
+                    <p class="grey-text text-lighten-4">Find me on Github!
+                        <br>This page is hosted by <a href="http://github.io">Github Pages</a>. Styles from <a href="http://materializecss.com">MaterializeCSS</a></p>
+                    <a class="black-text btn waves-effect waves-dark blue-grey lighten-5" href="https://github.com/rymcbr">Github</a>
                     <br>
-                    <br>
-                    <div id="map" style="width:100%;height:400px"></div>
-                    <script src="https://maps.googleapis.com/maps/api/js"></script>
-                    <script>
-                        var mapCanvas = document.getElementById("map");
-                        var mapOptions = {
-                            center: new google.maps.LatLng(51.5, -0.2),
-                            zoom: 10
-                        }
-                        var map = new google.maps.Map(mapCanvas, mapOptions);
-                    </script>
+
                 </div>
             </div>
         </div>
-        <footer class="page-footer blue-grey darken-2">
+        <div class="footer-copyright blue-grey darken-3">
             <div class="container">
-                <div class="row">
-                    <div class="col l4 s12">
-                        <h5 class="white-text">My Pages</h5>
-                        <p class="grey-text text-lighten-4">I hope you've found exactly what you were looking for on this site. If you had hoped to reach Syntax Solutions, you will be redirected by clicking the button below.</p>
-                        <a href="http://syntax-solutions.xyz" class="black-text btn waves-effect waves-dark  blue-grey lighten-5">Syntax Solutions</a>
-
-                    </div>
-                    <div class="col l4 s12">
-                        <h5 class="white-text">Email Me</h5>
-                        <p class="grey-text text-lighten-4">Questions? Concerns? Suggestions? Email me. Please include your name.</p>
-                        <a class="black-text btn waves-effect waves-dark blue-grey lighten-5" href="mailto:ryanmcbride@syntax-solutions.xyz">Email</a>
-                    </div>
-                    <div class="col l4 s12" style="overflow: hidden;">
-                        <h5 class="white-text">Connect</h5>
-                        <p class="grey-text text-lighten-4">Find me on Github!
-                            <br>This page is hosted by <a href="http://github.io">Github Pages</a>. Styles from <a href="http://materializecss.com">MaterializeCSS</a></p>
-                        <a class="black-text btn waves-effect waves-dark blue-grey lighten-5" href="https://github.com/rymcbr">Github</a>
-                        <br>
-
-                    </div>
-                </div>
+                Ryan McBride 2016
+                <a class="grey-text text-lighten-4 right" href="https://aps1.net">Education</a>
             </div>
-            <div class="footer-copyright blue-grey darken-3">
-                <div class="container">
-                    Ryan McBride 2016
-                    <a class="grey-text text-lighten-4 right" href="https://aps1.net">Education</a>
-                </div>
-            </div>
-        </footer>
-        <!--Import jQuery before materialize.js-->
-        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-        <script src="/web/js/materialize.js"></script>
-        <script src="/web/js/init.js"></script>
-        <script src="/web/scripts.js"></script>
+        </div>
+    </footer>
+    <!--Import jQuery before materialize.js-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="/web/js/materialize.js"></script>
+    <script src="/web/js/init.js"></script>
+    <script src="/web/scripts.js"></script>
 </body>
 
 </html>
