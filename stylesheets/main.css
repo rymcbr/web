@@ -11,7 +11,11 @@
     font-family: 'Slabo 27px', serif;
     color: white
 }
-
+@media screen and (max-width: 768px) {
+	.intro-section {
+		padding: 35px !important;
+	}
+}
 body {
 color: #333333 !important;
     margin-top: 0 !important;
