@@ -1,3 +1,31 @@
+@import ("https://fonts.googleapis.com/css?family=Roboto:400,700,300");
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
+
+body {
+    font-family: 'Roboto',sans-serif;
+    color: #212121;
+    overflow-x: hidden;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #424242
+}
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #808080
+}
+span {
+    font-family: 'Montserrat', sans-serif;
+}
 body {
     font-family: 'Roboto', arial, sans-serif;
     color: #333 !important
@@ -60,11 +88,20 @@ ul.pagination > .active {
 nav {
     background: #e0e0e0 !important;
 }
+@media screen and (max-width: 600px) {
+    .highlight {
+        width: 300px !important;
+        font-size: 40px !important;
+    }
+}
 .highlight {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700 !important;
+    text-transform: lowercase;
     text-align: center;
     padding: 10px;
     background: #3f51b5;
-    width: 350px;
+    width: 400px;
     border-radius: 3px;
 }
 .colored-highlight {
@@ -115,4 +152,85 @@ img.radius {
 }
 .angular .chart {
   margin-top: 0;
+}
+.inline {
+    vertical-align: middle !important;
+    align-content: center !important;
+}
+.timeline {
+	padding: 40px 0px;
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 40px;
+}
+
+.timeline:before {
+	content: "";
+	position: absolute;
+	top: 40px;
+	left: 65px;
+	width: 3px;
+	height: calc(100% - 80px);
+}
+
+.timeline .column {
+	margin: 40px 40px 40px 120px;
+}
+
+.timeline .column .title h1 {
+	font-size: 90px;
+	color: rgba(0,0,0,0.1);
+	font-family: serif;
+	letter-spacing: 3px;
+}
+
+.timeline .column .title h1:before {
+	content: "";
+	position: absolute;
+	left: -62px;
+	top: 86px;
+	width: 10px;
+	height: 10px;
+	background: #fff;
+}
+
+.timeline .column .title h2 {
+	margin-top: -60px;
+	font-size: 28px;
+}
+
+.timeline .column .description p {
+	font-size: 13px;
+	line-height: 20px;
+	margin-left: 20px;
+	margin-top: 10px;
+	font-family: serif;
+}
+
+.timeline .column .description {
+	border-left: 1px solid #000;
+}
+
+.main {
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 80px;
+}
+
+.main h1 {
+	font-size: 80px;
+	line-height: 60px;
+}
+
+.main p {
+	font-size: 13px;
+	line-height: 20px;
+	font-family: serif;
+	text-align: right;
+}
+.progress {
+    background: #9FA8DA !important;
+}
+.progress .determinate {
+    background: #303F9F !important
 }
