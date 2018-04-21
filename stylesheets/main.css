@@ -2,47 +2,58 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
 
 body {
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #212121;
     overflow-x: hidden;
 }
+
 h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: europa, sans-serif;
+    font-style: normal;
     font-weight: 700;
     text-transform: uppercase;
 }
+
 h5 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     text-transform: uppercase;
     color: #424242
 }
+
 h6 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     text-transform: uppercase;
     color: #808080
 }
+
 span {
     font-family: 'Montserrat', sans-serif;
 }
+
 body {
     font-family: 'Roboto', arial, sans-serif;
     color: #333 !important
 }
+
 p {
     color: #696969;
     font-weight: 500 !important;
 }
+
 .vcenter {
     vertical-align: middle;
 }
+
 .brand-logo {
     font-size: 22px !important;
 }
+
 .button-collapse i {
     font-size: 24px !important
 }
+
 .hero {
     background: url(https://newevolutiondesigns.com/images/freebies/city-wallpaper-11.jpg) center center;
     background-size: cover;
@@ -51,9 +62,11 @@ p {
     line-height: 500px;
     margin-bottom: 50px;
 }
+
 nav a {
     color: #616161 !important
 }
+
 .hero-content {
     display: inline-block;
     vertical-align: middle;
@@ -64,36 +77,45 @@ nav a {
     text-align: left;
     width: 70%;
 }
+
 .hr {
     border-bottom: solid 6px #03A9F4;
     width: 70px;
 }
+
 .hr-h5 {
     border-bottom: solid 6px #03A9F4;
     width: 30px;
 }
+
 h5 {
     font-size: 24px !important;
 }
+
 .color {
     color: #3f51b5;
 }
+
 .container-fluid {
     padding-left: 5%;
     padding-right: 5%;
 }
+
 ul.pagination > .active {
     background: #039BE5 !important;
 }
+
 nav {
     background: #e0e0e0 !important;
 }
+
 @media screen and (max-width: 600px) {
     .highlight {
         width: 300px !important;
         font-size: 40px !important;
     }
 }
+
 .highlight {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700 !important;
@@ -104,6 +126,7 @@ nav {
     width: 400px;
     border-radius: 3px;
 }
+
 .colored-highlight {
     text-align: center;
     padding: 10px;
@@ -112,125 +135,138 @@ nav {
     border-radius: 3px;
     color: white !important;
 }
+
 .inline {
     display: inline-block !important;
     color: #616161;
     vertical-align: middle;
 }
+
 img.radius {
     border-radius: 2px;
 }
+
 .border {
     padding: 20px;
 }
+
 .chart {
-  position: relative;
-  display: inline-block;
-  width: 110px;
-  height: 110px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  text-align: center;
+    position: relative;
+    display: inline-block;
+    width: 110px;
+    height: 110px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
 }
+
 .chart canvas {
-  position: absolute;
-  top: 0;
-  left: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
+
 .percent {
-  display: inline-block;
-  line-height: 110px;
-  z-index: 2;
+    display: inline-block;
+    line-height: 110px;
+    z-index: 2;
 }
+
 .percent:after {
-  content: '%';
-  margin-left: 0.1em;
-  font-size: .8em;
+    content: '%';
+    margin-left: 0.1em;
+    font-size: .8em;
 }
+
 .angular {
-  margin-top: 100px;
+    margin-top: 100px;
 }
+
 .angular .chart {
-  margin-top: 0;
+    margin-top: 0;
 }
+
 .inline {
     vertical-align: middle !important;
     align-content: center !important;
 }
+
 .timeline {
-	padding: 40px 0px;
-	width: 80%;
-	margin-left: 10%;
-	margin-bottom: 40px;
+    padding: 40px 0px;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 40px;
 }
 
 .timeline:before {
-	content: "";
-	position: absolute;
-	top: 40px;
-	left: 65px;
-	width: 3px;
-	height: calc(100% - 80px);
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 65px;
+    width: 3px;
+    height: calc(100% - 80px);
 }
 
 .timeline .column {
-	margin: 40px 40px 40px 120px;
+    margin: 40px 40px 40px 120px;
 }
 
 .timeline .column .title h1 {
-	font-size: 90px;
-	color: rgba(0,0,0,0.1);
-	font-family: serif;
-	letter-spacing: 3px;
+    font-size: 90px;
+    color: rgba(0, 0, 0, 0.1);
+    font-family: serif;
+    letter-spacing: 3px;
 }
 
 .timeline .column .title h1:before {
-	content: "";
-	position: absolute;
-	left: -62px;
-	top: 86px;
-	width: 10px;
-	height: 10px;
-	background: #fff;
+    content: "";
+    position: absolute;
+    left: -62px;
+    top: 86px;
+    width: 10px;
+    height: 10px;
+    background: #fff;
 }
 
 .timeline .column .title h2 {
-	margin-top: -60px;
-	font-size: 28px;
+    margin-top: -60px;
+    font-size: 28px;
 }
 
 .timeline .column .description p {
-	font-size: 13px;
-	line-height: 20px;
-	margin-left: 20px;
-	margin-top: 10px;
-	font-family: serif;
+    font-size: 17px;
+    line-height: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .timeline .column .description {
-	border-left: 1px solid #000;
+    border-left: 1px solid #000;
 }
 
 .main {
-	width: 80%;
-	margin-left: 10%;
-	margin-top: 80px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 80px;
 }
 
 .main h1 {
-	font-size: 80px;
-	line-height: 60px;
+    font-size: 80px;
+    line-height: 60px;
 }
 
 .main p {
-	font-size: 13px;
-	line-height: 20px;
-	font-family: serif;
-	text-align: right;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: serif;
+    text-align: right;
 }
+
 .progress {
     background: #9FA8DA !important;
 }
+
 .progress .determinate {
     background: #303F9F !important
 }
