@@ -129,11 +129,14 @@ nav {
 
 .colored-highlight {
     text-align: center;
-    padding: 10px;
-    background: #616161;
+    padding: 12px;
+    background: rgb(232, 234, 237);
     width: 350px;
-    border-radius: 3px;
-    color: white !important;
+    border-radius: 100px;
+    color: rgb(32, 33, 69) !important;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
 }
 
 .inline {
