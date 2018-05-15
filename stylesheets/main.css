@@ -1,5 +1,9 @@
 @import ("https://fonts.googleapis.com/css?family=Roboto:400,700,300");
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
+@font-face {
+    font-family: 'lovelyFont';
+    src: url('../fonts/GoogleSans-Regular.ttf')
+}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -8,7 +12,7 @@ body {
 }
 
 h1 {
-    font-family: europa, sans-serif;
+    font-family: 'lovelyFont', sans-serif;
     font-style: normal;
     font-weight: 700;
     text-transform: uppercase;
@@ -135,7 +139,7 @@ nav {
     border-radius: 100px;
     color: rgb(32, 33, 69) !important;
     font-size: 15px;
-    font-family: "Roboto", sans-serif;
+    font-family: "lovelyFont", sans-serif;
     font-weight: 500;
 }
 
