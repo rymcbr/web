@@ -137,10 +137,12 @@ nav {
     text-transform: lowercase;
     text-align: center;
     padding: 10px;
-    background: #4568dc; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #4568dc, #b06ab3); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4568dc, #b06ab3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: #4568dc;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4568dc, #b06ab3);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4568dc, #b06ab3);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     width: 400px;
     border-radius: 3px;
 }
@@ -291,7 +293,12 @@ img.radius {
 }
 
 .progress .determinate {
-    background: #303F9F !important
+    background: #4568dc;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4568dc, #b06ab3);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4568dc, #b06ab3);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 a.brand-logo {
@@ -308,13 +315,15 @@ a.brand-logo {
     border-radius: 30px;
     top: calc(1% + 10px)
 }
+
 nav {
     -moz-border-radius: 7px;
     -webkit-border-radius: 7px;
     border-radius: 7px;
 }
+
 .center-nav {
     align-content: center;
     text-align: center !important;
-    
+
 }
