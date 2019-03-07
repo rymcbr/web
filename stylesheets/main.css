@@ -121,7 +121,8 @@ ul.pagination > .active {
 }
 
 nav {
-    background: #e0e0e0 !important;
+    background: rgb(238,238,238) !important;
+    background: linear-gradient(270deg, rgba(238,238,238,1) 0%, rgba(189,189,189,0.9612219887955182) 80%)!important;
 }
 
 @media screen and (max-width: 600px) {
