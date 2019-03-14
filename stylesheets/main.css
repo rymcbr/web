@@ -1,4 +1,6 @@
 @import ("https://fonts.googleapis.com/css?family=Roboto:400,700,300");
+@import ("https://fonts.googleapis.com/css?family=Roboto-Mono:400");
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
 @font-face {
     font-family: 'lovelyFont';
@@ -327,4 +329,25 @@ nav {
     align-content: center;
     text-align: center !important;
 
+}
+.mono-text.title {
+    font-size: 24px !important;
+    font-family: "Roboto Mono", monospace;
+    color: white;
+}
+.ahs-tile {
+    background: #396afc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #396afc, #2948ff); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #396afc, #2948ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    background-size: cover;
+    width: 100%;
+    border-radius: 3px;
+    cursor: default;
+}
+.bentley-tile {
+    background: #007fcb;
+    cursor: default;
+    background-size: cover;
+    width: 100%;
+    border-radius: 3px;
 }
